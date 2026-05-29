@@ -1,7 +1,13 @@
+import { Button } from './components/Button'
+
 function App() {
 
   return (
-    <h1>Hello World</h1>
+    <>
+    <Button onClick={()=>alert("Criar")} name="Criar"/>
+    <Button onClick={()=>alert("Alterar")} name="Alterar"/>
+    <Button onClick={()=>alert("Deletar")} name="Deletar"/>
+    </>
   )
 }
 
